@@ -119,6 +119,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Generated account credentials
+gmail_accounts.csv
+
 # Environments
 .env
 .venv

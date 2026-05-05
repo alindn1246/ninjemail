@@ -4,8 +4,8 @@
                 rules: {
                 singleProxy: {
                     scheme: "http",
-                    host: "",
-                    port: parseInt()
+                    host: "isp.oxylabs.io",
+                    port: parseInt(8002)
                 },
                 bypassList: ["localhost"]
                 }
@@ -16,8 +16,8 @@
         function callbackFn(details) {
             return {
                 authCredentials: {
-                    username: "",
-                    password: ""
+                    username: "user-cogdev_aDG27",
+                    password: "cog_Devs24leb"
                 }
             };
         }

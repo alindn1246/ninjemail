@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(pip --version)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "Bash(python create_gmail.py)",
+      "Bash(python check_prices.py)",
+      "Bash(taskkill /F /IM python.exe /T)",
+      "PowerShell(Get-Process python -ErrorAction SilentlyContinue | Stop-Process -Force; Get-Process chrome -ErrorAction SilentlyContinue | Where-Object { $_.MainWindowTitle -eq \"\" } | Stop-Process -Force; \"Cleaned up.\")"
     ]
   }
 }
